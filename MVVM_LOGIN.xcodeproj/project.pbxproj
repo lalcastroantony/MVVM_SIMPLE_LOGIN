@@ -49,30 +49,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0879202C2853D4D100AC4D75 /* LoginView */ = {
+		0814F9652853ECF300E79142 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				1296C1F22764188C00CC9685 /* LoginViewController.swift */,
-				0879202A2853D49E00AC4D75 /* LoginViewModel.swift */,
+				1296C1F42764196700CC9685 /* HomeViewController.swift */,
 			);
-			name = LoginView;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		0879202D2853D4E700AC4D75 /* Model */ = {
+		0814F9662853ECFD00E79142 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				087920332853E27000AC4D75 /* HomeViewModel.swift */,
+				0879202A2853D49E00AC4D75 /* LoginViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0879202D2853D4E700AC4D75 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				087920282853D45B00AC4D75 /* User.swift */,
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		087920322853E25400AC4D75 /* HomeView */ = {
-			isa = PBXGroup;
-			children = (
-				1296C1F42764196700CC9685 /* HomeViewController.swift */,
-				087920332853E27000AC4D75 /* HomeViewModel.swift */,
-			);
-			name = HomeView;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		1296C1D22764177600CC9685 = {
@@ -94,11 +94,11 @@
 		1296C1DD2764177600CC9685 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				087920322853E25400AC4D75 /* HomeView */,
-				0879202D2853D4E700AC4D75 /* Model */,
-				0879202C2853D4D100AC4D75 /* LoginView */,
 				0879202E2853D6BF00AC4D75 /* ObservableObject.swift */,
 				087920302853D91D00AC4D75 /* NetworkService.swift */,
+				0814F9662853ECFD00E79142 /* ViewModels */,
+				0814F9652853ECF300E79142 /* Views */,
+				0879202D2853D4E700AC4D75 /* Models */,
 				1296C1DE2764177600CC9685 /* AppDelegate.swift */,
 				1296C1E02764177600CC9685 /* SceneDelegate.swift */,
 				1296C1E42764177600CC9685 /* Main.storyboard */,
