@@ -97,14 +97,14 @@
 				087920322853E25400AC4D75 /* HomeView */,
 				0879202D2853D4E700AC4D75 /* Model */,
 				0879202C2853D4D100AC4D75 /* LoginView */,
+				0879202E2853D6BF00AC4D75 /* ObservableObject.swift */,
+				087920302853D91D00AC4D75 /* NetworkService.swift */,
 				1296C1DE2764177600CC9685 /* AppDelegate.swift */,
 				1296C1E02764177600CC9685 /* SceneDelegate.swift */,
 				1296C1E42764177600CC9685 /* Main.storyboard */,
 				1296C1E72764177800CC9685 /* Assets.xcassets */,
 				1296C1E92764177800CC9685 /* LaunchScreen.storyboard */,
 				1296C1EC2764177800CC9685 /* Info.plist */,
-				0879202E2853D6BF00AC4D75 /* ObservableObject.swift */,
-				087920302853D91D00AC4D75 /* NetworkService.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
